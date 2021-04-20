@@ -1,10 +1,10 @@
 # Snake Game Computer Science Final Summative
 
-Author: Andrew Nicholas Ganea
-Date of Submission: Wednesday, April 21, 2021
-Version: 1.6
-Unit: 6 - Culminating
-Programming Language: Python 3.9.2 64-bit
+Author: Andrew Nicholas Ganea  
+Date of Submission: Wednesday, April 21, 2021  
+Version: 1.6  
+Unit: 6 - Culminating  
+Programming Language: Python 3.9.2 64-bit  
 
 ## Program Description
 
