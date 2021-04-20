@@ -53,7 +53,7 @@ This is because the AI is incentivized to survive as long as possible, and delay
 ## Implementation Details
 
 To play the game, you first need to clone or download this repository from Github. 
-After that, sse the package manager [pip](https://pip.pypa.io/en/stable/) to install the following libraries:
+After that, use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following libraries:
 ```bash
 pip install pygame
 pip install torch torchvision
