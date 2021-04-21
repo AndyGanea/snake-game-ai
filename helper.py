@@ -9,18 +9,18 @@
 import matplotlib.pyplot as plt
 from IPython import display
 
-plt.ion()
+plt.ion() # Turns the interactive mode of the plot on.
 
-def plot(scores, mean_scores):
+def plot(scores, mean_scores): # This is the plot function that is referenced in the agent file, so it takes in two inputs.
     display.clear_output(wait=True)
-    display.display(plt.gcf())
+    display.display(plt.gcf()) # Gets the current figure of the graph.
     plt.clf()
     plt.title('Training...')
     plt.xlabel('Number of Games')
-    plt.ylabel('Score')
+    plt.ylabel('Score') # Sets the labels of the x-axis and the y-axis to always be Number of Games and Score respectively.
     plt.plot(scores)
-    plt.plot(mean_scores)
+    plt.plot(mean_scores) # Uses the library module to actually plot, but this is different than the main function it is within, since plot() will be called outside this file.
     plt.ylim(ymin=0)
-    plt.text(len(scores)-1, scores[-1], str(scores[-1]))
+    plt.text(len(scores)-1, scores[-1], str(scores[-1])) # The first two arguments of .text() tell the program where to plot the data, and str(scores[-1]) is the text which is being drawn.
     plt.text(len(mean_scores)-1, mean_scores[-1], str(mean_scores[-1]))
     
